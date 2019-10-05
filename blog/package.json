@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "build": "gatsby build"
   },
   "keywords": [],
-  "author": "Brent Jackson <jxnblk@gmail.com>",
+  "author": "Dan Argue <dbargue@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@jxnblk/gatsby-theme-mdx-blog": "0.1.0",

@@ -1,5 +1,5 @@
 {
-  "name": "@jxnblk/gatsby-theme-mdx-blog",
+  "name": "theme",
   "version": "0.1.1",
   "description": "Hyperminimal Gatsby theme for building blogs with MDX",
   "main": "index.js",

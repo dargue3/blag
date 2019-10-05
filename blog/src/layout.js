@@ -1,11 +1,8 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
-import {
-  Root,
-  Header,
-} from '@jxnblk/gatsby-theme-mdx-blog'
+import { jsx } from 'theme-ui';
+import { Root, Header } from '@jxnblk/gatsby-theme-mdx-blog';
 
-export default props =>
+export default props => (
   <Root>
     <Header />
     <div
@@ -14,7 +11,9 @@ export default props =>
         mx: 'auto',
         px: 3,
         py: 4,
-      }}>
+      }}
+    >
       {props.children}
     </div>
   </Root>
+);

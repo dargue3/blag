@@ -1,6 +1,6 @@
 /** @jsx jsx */
-import { jsx, Styled } from 'theme-ui'
-import { Link } from 'gatsby'
+import { jsx, Styled } from 'theme-ui';
+import { Link } from 'gatsby';
 
 export default props => {
   return (
@@ -9,23 +9,26 @@ export default props => {
         sx={{
           maxWidth: 'container',
           mx: 'auto',
-          px: 3,
+          px: 2,
           py: 2,
-        }}>
+        }}
+      >
         <Styled.h3
           sx={{
-            my: 0
-          }}>
+            my: 0,
+          }}
+        >
           <Link
-            to='/'
+            to="/"
             sx={{
               color: 'inherit',
               textDecoration: 'none',
-            }}>
+            }}
+          >
             Minimal Blog
           </Link>
         </Styled.h3>
       </div>
     </header>
-  )
-}
+  );
+};

@@ -1,0 +1,21 @@
+---
+title: Hook Guts
+date: 2019-03-01
+---
+
+I've always been interested in how things work
+
+```jsx
+import React from 'react';
+import css from '@styled-system/css';
+
+export default props => (
+  <div
+    {...props}
+    css={css({
+      fontSize: 4,
+      p: 5,
+    })}
+  />
+);
+```
